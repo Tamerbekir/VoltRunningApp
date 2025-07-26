@@ -1,0 +1,24 @@
+{
+  "name": "voltrunningapp",
+  "version": "1.0.0",
+  "description": "This is a full-stack running tracker web app built with React, TypeScript, Vite, and SQL, designed for deployment on Render (2025). It uses GPS or motion sensors to track user runs—even with the screen off.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev --prefix Volt/server\" \"npm run dev --prefix Volt/Client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tamerbekir/VoltRunningApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tamerbekir/VoltRunningApp/issues"
+  },
+  "homepage": "https://github.com/Tamerbekir/VoltRunningApp#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
