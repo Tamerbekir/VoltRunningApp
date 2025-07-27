@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"npm run dev --prefix Volt/server\" \"npm run dev --prefix Volt/Client\""
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix Client\""
   },
   "repository": {
     "type": "git",
