@@ -117,7 +117,7 @@ export default function App() {
         <p className="errorMessage">{error && errorMessage}</p>
       </div>
       <div>
-        <Link to="/">Return Home</Link>
+        <Link to="/">Return Home</Link> or <Link to="/login">Login</Link>
       </div>
     </div>
   );
